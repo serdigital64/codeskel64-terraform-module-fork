@@ -17,7 +17,11 @@
 
 ## 📌 Overview
 
-X_OVERVIEW_X
+Terraform module for X_DOC_MODULE_NAME_X:
+
+- Scope: X_DOC_SCOPE_X
+- Features:
+  - X_DOC_FEATURES_X
 
 ---
 

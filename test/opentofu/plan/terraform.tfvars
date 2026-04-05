@@ -2,6 +2,7 @@
 # Static values
 #
 
+shared__name = "test"
 # optional # X_VAR_NAME = "X_VAR_VALUE_X"
 
 #

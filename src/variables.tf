@@ -20,8 +20,10 @@ variable "shared__prefix" {
   description = "Prefix definition for naming generated module objects"
   sensitive   = false
   nullable    = true
-  type        = object({})
-  default     = {}
+  type = object({
+    X_RESOURCE_X = optional(string)
+  })
+  default = {}
 }
 
 variable "shared__labels" {
@@ -35,3 +37,12 @@ variable "shared__labels" {
 #
 # X_RESOURCE_TITLE_X
 #
+
+variable "X_RESOURCE_X" {
+  description = "X_RESOURCE_TITLE_X attributes"
+  sensitive   = false
+  nullable    = true
+  type = object({
+  })
+  default = {}
+}
